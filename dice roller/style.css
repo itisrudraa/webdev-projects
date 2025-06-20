@@ -1,0 +1,43 @@
+#container {
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+button {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(203, 82%, 44%);
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    background-color: hsl(203, 100%, 66%);   
+}
+button:active {
+    background-color: hsl(203, 100%, 73%);   
+}
+input {
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+#diceresult {
+    margin: 25px;
+}
+#diceimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+#diceimage img {
+    width: 80px; 
+    height: 80px;
+}
