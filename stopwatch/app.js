@@ -6,9 +6,11 @@ let isrunning = false;
 
 //to start timer
 function start(){
-    starttime = Date.now() - elapsedtime;
-    timer = setInterval(update, 10);
-    isrunning = true;
+    if(!isrunning){
+        starttime = Date.now() - elapsedtime;
+        timer = setInterval(update, 10);
+        isrunning = true;
+    }
 }
 
 //to stop timer
